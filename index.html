@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Evento onclick</title>
+</head>
+<body>    
+    <div class="navbar">
+        <h1>Dojonary</h1>
+        <div class="busquedaprincipal">
+            <label for="busqueda">
+                <input type="text" id="busqueda" placeholder="Search">
+            </label>
+        </div>
+        <button class="botonNav" onclick="turnLogout(this)">Login</button>
+                
+    </div>
+    <div class="container">
+        <div class="column1">
+            <div class="main">
+                <div class="concept1">
+                    <div class="information1">
+                        <h1>ninja</h1>
+                        <h3>noun</h3>
+                        <h4>Plural:ninjas</h4>
+                        <button class="buttonconcept" onclick="alert('Ninja was liked')"> 13 likes</button>
+                    </div>
+                    <div class="sifnification1">
+                        <p>A practitioner skilled in the <br>
+                        <span>Japanese</span> art of <span>ninjutsu</span></p>
+                    </div>
+                </div>
+                <div class="concept2">
+                    <div class="information1">
+                        <h1>ninja</h1>
+                        <h3>noun</h3>
+                        <h4>Plural:ninjas</h4>
+                        <button class="buttonconcept"onclick="alerta()"> 37 likes</button>
+                    </div>
+                    <div class="sifnification1">
+                        <p>A  <span>programmer</span> who breaks <br>
+                        down problems with <span>zen</span>-like <br>focus</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column2">
+            <div class="etiqueta">
+                <div class="you">
+                    <p> Dojonary is <br>defined by <span>YOU</span></p>
+                </div>
+                <div class="buttonAdd">
+                    <button class="buttonfinition"onclick="ocultar(this)">Add Definition</button>
+                </div>
+            </div>   
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
